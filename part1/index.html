@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ethan Kang — Northeastern student, varsity soccer player, exploring sports analytics and design." />
+    <title>Ethan Kang — Personal Site</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<header class="site-header small">
+    <nav class="nav">
+        <a class="brand" href="index.html">EK</a>
+        <a aria-current="page" href="index.html">Home</a>
+        <a href="topic.html">Project</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <h1 class="hero-title">Welcome to My Website</h1>
+    <p class="hero-sub">A quick intro to who I am and what I’m working on.</p>
+</header>
+
+<main class="container"> 
+    <section class="card">
+        <img class="cover" src="kang_ethan_JIM14242.JPG" alt="Ethan Kang playing soccer" />
+        <div class="card-body">
+            <h2>About Me</h2>
+                <p>
+                    Hi! I’m Ethan Kang, a junior at Northeastern University studying Business and Data Science with a
+                    concentration in Finance. I’m originally from Toronto, Canada, and I was recruited to play for
+                    Northeastern’s Men’s Varsity Soccer. On this site I share the kinds of projects that sit at the intersection
+                    of sports, analytics, and design—things I naturally tinker with between classes, training, and recovery.
+                    I’m drawn to problems where a clear visual can make a decision faster: a simple plot that reveals a trend,
+                    a tidy dashboard that cuts through noise, or a uniform concept that balances identity with function.
+                </p>
+                <p>
+                    Lately I’ve been exploring two threads. First, sports analytics: tracking how different
+                    training loads and match contexts show up in performance, then translating those insights into clean
+                    visuals that a coach or teammate can understand at a glance. Second, kit and brand design:
+                    experimenting with palettes, type, and pattern that read well both up close and at broadcast distance.
+                    My goal is the same in both worlds—reduce messy inputs into something crisp, honest, and useful.
+                    If any of this resonates, feel free to click around and reach out on the contact page. I’m always open
+                    to feedback, collaborations, or swapping ideas on data, design, and the game.
+                </p>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>© <span id="year"></span> Ethan Kang • <a href="contact.html">Contact</a></p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

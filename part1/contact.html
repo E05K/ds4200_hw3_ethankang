@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="site-header small">
+        <nav class="nav">
+            <a class="brand" href="index.html">EK</a>
+            <a href="index.html">Home</a>
+            <a href="topic.html">Project</a>
+            <a aria-current="page" href="contact.html">Contact</a>
+        </nav>
+        <h2 class="hero-title">Get in Touch</h2>
+    </header>
+
+<main class="container">
+    <section class="card">
+        <div class="card-body">
+            <p>Questions or feedback? I’d love to hear from you.</p>
+            <p><strong>Email:</strong> <a href="mailto:kang.eth@northeastern.edu">kang.eth@northeastern.edu</a></p>
+            <p><strong>Social:</strong>
+                <a href="https://github.com/E05K" target="_blank" rel="noreferrer">GitHub</a> ·
+                <a href="https://linkedin.com/in/e05kang/" target="_blank" rel="noreferrer">Linkedin</a> ·
+                <a href="https://instagram.com/e6_kang" target="_blank" rel="noreferrer">Instagram</a>
+            </p>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>© <span id="year"></span> Ethan Kang • <a href="contact.html">Contact</a></p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

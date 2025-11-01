@@ -1,14 +1,8 @@
 
-*
-!part1/
-
-!part1/**
-
-!part2/
-
-!part2/**
-
-part1/Homework 3.ipynb
-
-!.gitignore
-
+/*
+!/.gitignore
+!/part1/
+!/part1/**
+!/part2/
+!/part2/**
+/part1/Homework\ 3.ipynb

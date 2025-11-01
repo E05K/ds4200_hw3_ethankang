@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project: Jersey Design Notes</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<header class="site-header small">
+    <nav class="nav">
+        <a class="brand" href="index.html">EK</a>
+        <a href="index.html">Home</a>
+        <a aria-current="page" href="topic.html">Project</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <h2 class="hero-title">Jersey Design Creation</h2>
+    <p class="hero-sub">Exploring color, type, and pattern in kit concepts.</p>
+</header>
+
+<main class="container"> 
+    <section class="card">
+        <img class="cover" src="Brighton.jpg" alt="Jersey Design Creation" />
+        <div class="card-body">
+            <p>
+                This page documents how I turn a rough kit idea into a clear jersey concept. I start with a focused brief:
+                what emotion should the kit carry, how should it read on broadcast, and what constraints matter for competition
+                rules and sponsor placement. From there, I research the club’s past jerseys—looking at how colors, crests, and
+                typography have evolved over time—to identify visual themes worth preserving. I then build a compact color
+                system—usually a primary, a secondary, an accent, and a neutral—and test how those tones perform on grass under
+                daylight and stadium lighting. Using Photoshop, I translate sketches into digital mockups, experimenting with
+                layering techniques, gradients, and texture overlays to see how different designs come to life on fabric.
+            </p>
+            <p>
+                Once a direction feels strong, I refine it in a template to evaluate spacing tokens, stroke weights, and pattern
+                repetition. I check sponsor lockups, league badges, and manufacturer marks for balance and hierarchy. Throughout
+                the process, I keep referencing older kits to ensure my design feels authentic to the club’s history while still
+                introducing something fresh. Finally, I export variants for home, away, and alternate kits—each related yet distinct.
+                The goal is always the same: a design that honors identity, photographs well, and helps players feel fast and
+                confident—something fans are proud to wear and that looks sharp on TV.
+            </p>
+            
+            <h3>Checklist</h3>
+                <ul>
+                    <li>Define palette (primary, secondary, accent, neutral)</li>
+                    <li>Select number and name typefaces with broadcast legibility</li>
+                    <li>Sketch shapes and test how patterns read in motion</li>
+                    <li>Validate sponsor, badge, and manufacturer placement</li>
+                    <li>Export coherent home, away, and alternate variants</li>
+                </ul>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>© <span id="year"></span> Ethan Kang • <a href="contact.html">Contact</a></p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
